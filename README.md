@@ -1,49 +1,69 @@
-# 🎬 ChillFix — Your Personal Movie Tracker
+<h1 align="center">🎬 ChillFix — Your Personal Movie Tracker</h1>
 
-Welcome to **ChillFix**, a sleek and modern movie tracking web app built with [Next.js](https://nextjs.org)! Whether you're a casual watcher or a movie buff, ChillFix helps you discover, organize, and keep track of your favorite films effortlessly.
+<p align="center">
+  Discover, organize, and keep track of your favorite films — all in one place.
+</p>
+
+<p align="center">
+  <a href="https://chillfix.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/Live Demo-Click Here-red?style=for-the-badge" alt="Live Demo" />
+  </a>
+</p>
+
+![Screenshot](https://github.com/user-attachments/assets/e11924ad-e520-49d8-ba36-0e5130beaab2)
 
 ---
 
-## 🚀 Features
+## 📖 About
 
-- **Browse Latest & Popular Movies** — Discover movies by genre or trending picks.
-- **Movie Details** — Get in-depth info: synopsis, ratings, trailers, and more.
-- **Personalized Lists** — Add movies to Favorites, Watched, or Watchlist with one click.
-- **User Authentication** — Secure login to save your personal movie collections.
-- **Responsive Design** — Enjoy a smooth experience on desktop and mobile.
+ChillFix is a modern movie tracking web app built with Next.js. Whether you're a casual watcher or a movie buff, ChillFix helps you discover trending films, explore by genre, and organize your watching life into personal lists — all backed by the TMDb API and secured with NextAuth authentication.
 
 ---
 
-## 🖼️ Screenshot
+## ✨ Features
 
-<img width="1015" height="684" alt="image" src="https://github.com/user-attachments/assets/e11924ad-e520-49d8-ba36-0e5130beaab2" />
+- 🎥 **Browse Movies** — Discover latest, popular, and trending picks by genre
+- 📄 **Movie Details** — In-depth info including synopsis, ratings, and trailers
+- 📋 **Personalized Lists** — Add movies to Favorites, Watched, or Watchlist
+- 🔐 **User Authentication** — Secure login to save your personal collections
+- 📱 **Responsive Design** — Smooth experience on desktop and mobile
 
+---
 
+## 🛠️ Tech Stack
+
+| Category | Technology |
+|----------|------------|
+| Framework | Next.js |
+| Styling | Tailwind CSS |
+| Authentication | NextAuth.js |
+| Movie Data | TMDb API |
+| Notifications | React Hot Toast |
+| Icons | React Icons |
+| Deployment | Vercel |
+
+---
+
+## 🚀 Getting Started
+```bash
+# Clone the repository
+git clone https://github.com/Aytac20/Chillfix.git
+
+# Install dependencies
+cd Chillfix
+npm install
+
+# Set up environment variables
+cp .env.example .env
+# Add your TMDb API key and NextAuth secret to .env
+
+# Run the app
+npm run dev
+```
 
 ---
 
 ## 🌐 Live Demo
 
-Check out the live site: [(https://chillfix-2faeceoa3-aytacs-projects-a320664f.vercel.app/)](https://chillfix.vercel.app/)
+👉 [chillfix.vercel.app](https://chillfix.vercel.app/)
 
----
-
-## 🛠️ Technologies Used
-
-- [Next.js](https://nextjs.org) — React framework for server-side rendering and static site generation.
-- [The Movie Database (TMDb) API](https://developers.themoviedb.org/3) — Reliable and extensive movie data source.
-- [NextAuth.js](https://next-auth.js.org) — User authentication for Next.js.
-- [React Icons](https://react-icons.github.io/react-icons/) — Beautiful, consistent icons throughout the UI.
-- [Tailwind CSS](https://tailwindcss.com) — Fast and flexible styling.
-- [React Hot Toast](https://react-hot-toast.com) — Friendly notifications for user actions.
-
----
-
-## 🎯 Getting Started
-
-Clone the repo and install dependencies:
-
-```bash
-git clone https://github.com/Aytac20/Chillfix.git
-cd Chillfix
-npm install
